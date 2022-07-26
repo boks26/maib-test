@@ -1,6 +1,6 @@
 {
   "name": "maibtest/maibapi",
-  "type": "library",
+  "type": "composer",
   "description": "",
   "keywords": ["maib", "payment"],
   "homepage": "https://github.com/indrivo",
