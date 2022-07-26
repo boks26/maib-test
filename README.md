@@ -77,7 +77,7 @@ USAGE
     use GuzzleHttp\HandlerStack;
     use GuzzleHttp\Middleware;
     use GuzzleHttp\MessageFormatter;
-    use MaibApi\MaibClient;
+    use Maib\MaibApi\MaibClient;
   ````
  * Setup the log stack
   ````

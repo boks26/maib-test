@@ -2,7 +2,7 @@
 
 namespace MyProject;
 
-require_once(__DIR__ . '/vendor/autoload.php');
+require_once(__DIR__ . '/../vendor/autoload.php');
 
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
@@ -10,7 +10,7 @@ use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Middleware;
 use GuzzleHttp\MessageFormatter;
-use MaibApi\MaibClient;
+use Maib\MaibApi\MaibClient;
 
 // Create a log for Guzzle client class, if you want (monolog/monolog required)
 // It is needed to send to Maib Support in case of errors appear.
@@ -28,8 +28,8 @@ $options = [
   'base_uri' => 'https://maib.ecommerce.md:21440',
   'debug'  => false,
   'verify' => true,
-  'cert'    => [__DIR__.'/cert/cert.pem', 'Za86DuC$'],
-  'ssl_key' => __DIR__.'/cert/key.pem',
+  'cert'    => [__DIR__.'/../cert/cert.pem', 'Za86DuC$'],
+  'ssl_key' => __DIR__.'/../cert/key.pem',
   'config'  => [
     'curl'  =>  [
       CURLOPT_SSL_VERIFYHOST => 2,

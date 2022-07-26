@@ -1,6 +1,6 @@
 <?php
 
-namespace MaibApi;
+namespace Maib\MaibApi;
 
 use GuzzleHttp\Command\Guzzle\Description;
 

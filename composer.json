@@ -1,5 +1,5 @@
 {
-  "name": "maib/maib-api",
+  "name": "maib/maibapi",
   "type": "library",
   "description": "",
   "keywords": ["maib", "payment"],
@@ -20,8 +20,8 @@
   },
   "autoload": {
     "psr-4": {
-      "MaibApi\\": ""
+      "Maib\\": "src/"
     }
   },
-  "target-dir": "MaibApi"
+  "target-dir": "Maib"
 }
